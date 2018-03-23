@@ -1,0 +1,90 @@
+/*CLASES REUTILIZABLES*/
+.flex-direction-column{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home{
+  background-image: url('../assets/images/background.png');
+  height: 100vh;
+  background-position: center initial-scale;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  background-attachment: fixed;
+}
+h1.style-h1 {
+  font-family: 'Rammetto One', cursive;
+  margin: 0 0 0 4px;
+  font-size: 25vmin;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #657254;
+  background-image: url('http://allart.biz/up/photos/album/S-T-U/Ivan%20Ivanovich%20Shishkin/shishkin_ivan_3_pine_forest_in_viatka_province.jpg');
+  background-blend-mode: overlay;
+  background-size: contain;
+  position: relative;
+  letter-spacing: 4px;
+}
+h1.style-h1::before {
+  align-items: center;
+  content: "Yoss";
+  letter-spacing: 4px;
+  white-space: pre;
+  position: absolute;
+  top: 0;
+  text-shadow:
+  -1px -1px 0 #FFF,
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    z-index: -1;
+}
+h1.style-h1::after {
+  align-items: center;
+  content: "Yoss";
+  letter-spacing: 4px;
+  white-space: pre;
+  position: absolute;
+  top: 0;
+  left: 10.2vw;
+  text-shadow: -3px -1px 0 #FA5C20,
+    -3px 0px 0 #FA5C20,
+    -4px 1px 0 #FA5C20,
+    -4px 2px 0 #FA5C20,
+    -5px 3px 0 #FA5C20,
+    -5px 4px 0 #FA5C20,
+    -6px 5px 0 #FA5C20,
+    -6px 6px 0 #FA5C20,
+    -7px 7px 0 #FA5C20,
+    -7px 8px 0 #FA5C20,
+    -8px 9px 0 #FA5C20,
+    -8px 10px 0 #FA5C20;
+  z-index: -2;
+}
+h4.specialty{
+  font-family: 'Finger Paint', cursive;
+  color: #000;
+  text-shadow: 1px 0 #FFF;
+}
+a.style-btn{
+  border: 2px dashed #000;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+div#second-page.container.margin-0{
+  margin: 0;
+}
+.hidden{
+  display: none;
+  transition: 40s display;
+}
+.transition-page{
+  display: none;
+  transition: 24s display;
+}
