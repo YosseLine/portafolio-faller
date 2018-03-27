@@ -96,9 +96,6 @@ button.style-btn{
 button.black-text.style-btn:hover{
   box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
 }
-div#second-page.container.margin-0{
-  margin: 0;
-}
 .hidden{
   display: none;
   transition: 40s display;
@@ -106,4 +103,42 @@ div#second-page.container.margin-0{
 .transition-page{
   display: block;
   transition: 24s display;
+}
+
+/*SECCIONES*/
+.bl-main section.about-me{
+  border-right: 1px dashed #000;
+  background-image: url('../assets/images/background-bill-1.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+.bl-main section.habilities{
+  border-bottom: 1px dashed #000;
+  background-image: url('../assets/images/background-bill-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+.bl-main section.proyects{
+  border-top: 1px dashed #000;
+  background-image: url('../assets/images/background-bill-2.jpg');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+.bl-main section.contact{
+  border-left: 1px dashed #000;
+  background-image: url('../assets/images/background-bill-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+@media (min-width: 1200px) {
+  .bl-main section.habilities{
+    background-position: bottom;
+  }
 }
