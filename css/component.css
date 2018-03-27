@@ -115,7 +115,6 @@ a:hover {
 .bl-box h2 {
 	text-align: center;
 	margin: 0;
-	padding: 20px;
 	width: 100%;
 	font-size: 1.8em;
 	letter-spacing: 2px;
@@ -171,7 +170,7 @@ a:hover {
 	content: "\e005";
 }
 
-.bl-content, 
+.bl-content,
 div.bl-panel-items > div > div {
 	opacity: 0;
 	pointer-events: none;
@@ -221,7 +220,7 @@ div.bl-panel-items > div > div {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-} 
+}
 
 .bl-content > ul li {
 	display: inline-block;
