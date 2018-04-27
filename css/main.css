@@ -22,6 +22,10 @@
 .img-responsive{
   width: 100%;
 }
+.box-simb{
+  width: 20%;
+  margin-left: 40%;
+}
 .home{
   background-image: url('../assets/images/background.png');
   height: 100vh;
@@ -155,6 +159,16 @@ button.black-text.style-btn:hover{
     width: 50%;
     margin-left: 20%;
   }
+  .box-simb{
+    width: 15%;
+    margin-left: 42%;
+  }
+}
+@media (min-width: 992px) {
+  .box-simb{
+    width: 10%;
+    margin-left: 45%;
+  }
 }
 @media (min-width: 1200px) {
   .bl-main section.proyects{
@@ -163,5 +177,9 @@ button.black-text.style-btn:hover{
   .img-box-about{
     width: 20%;
     margin-left: 40%;
+  }
+  .box-simb{
+    width: 5%;
+    margin-left: 47%;
   }
 }

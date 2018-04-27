@@ -61,13 +61,13 @@ a:hover {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background:rgb(0,135,174);
+	background: rgb(0,135,174);
 }
 
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: #FA987D;
+	background: rgb(110,161,120);
 }
 
 .bl-main > section:nth-child(3) {
@@ -191,12 +191,16 @@ div.bl-panel-items > div > div {
 	padding-bottom: 15px;
 	font-size: 1.7em;
 	line-height: 1.8;
+	color: #000;
+	font-weight: bolder;
 }
 
 .bl-content h2 {
 	font-size: 3em;
 	font-weight: 300;
 	margin: 0 0 20px 0;
+	color: #000;
+	font-weight: bolder;
 }
 
 .bl-content article {
@@ -296,8 +300,7 @@ div.bl-panel-items > div {
 div.bl-panel-items nav {
 	position: absolute;
 	z-index: 9999;
-	width: 216px;
-	left: 50%;
+	left: 45%;
 	top: 0px;
 	margin-left: -108px;
 	opacity: 0;
@@ -370,17 +373,11 @@ div.bl-panel-items > div.bl-hide-current-work {
 	z-index: 100;
 }
 
-.bl-main > section:first-child.bl-expand {
-	background: rgb(0,135,174);
-}
-.bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
-}
-.bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
-}
-.bl-main > section:nth-child(4).bl-expand {
-	background: #0D8278;
+.bl-main > section:first-child.bl-expand, .bl-main > section:nth-child(2).bl-expand, .bl-main > section:nth-child(3).bl-expand, .bl-main > section:nth-child(4).bl-expand {
+	background-image: url('../assets/images/background.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
